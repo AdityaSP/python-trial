@@ -11,6 +11,6 @@ with open('error.log') as fh:
         m = cp.search(line)
         if m:
             #d[':error'] = d[':error'] + 1
-            d[m.group(1)] = d.get(m.group(1),0) + 1
+            d[m.group(1)] = d.get(m.group(1), 0) + 1
 
 print d
