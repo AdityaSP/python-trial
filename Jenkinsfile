@@ -1,4 +1,4 @@
-node {
+node('master') {
     
     stage('HelloWorld') {
         echo "picking up python from ${pypath}"
