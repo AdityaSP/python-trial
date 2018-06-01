@@ -1,7 +1,7 @@
 node {
     
     stage('HelloWorld') {
-       echo $pypath
+        echo "${pypath}"
     }
     
     stage('download') {
